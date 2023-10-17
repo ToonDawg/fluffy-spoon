@@ -20,10 +20,10 @@ export const CustomFeedbackForm = () => {
 
 
   return (
-    <>
+    <div className="formContainer">
       <h2>Custom Feedback Form</h2>
       {form.errors && form.errors.map((error: string) => <p>{error}</p>)}
-      <form style={{ display: "flex", flexDirection: "column" }} onSubmit={form.onSubmit}>
+      <form className="form" onSubmit={form.onSubmit}>
         <div>
           <label>Name: </label>
           <input placeholder="Name" value={form.values.name} onChange={form.onChange} type="text" name="name" />
@@ -49,7 +49,7 @@ export const CustomFeedbackForm = () => {
         </div>
         <button type="submit" disabled={form.isSubmitting}>Submit</button>
       </form>
-    </>
+    </div>
   );
 };
 

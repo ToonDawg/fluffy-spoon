@@ -1,7 +1,7 @@
-import { CustomFeedbackForm } from "./components/CustomFeedbackForm"
+import { TrafficLight } from "./components/TrafficLight";
 
 const App = () => {
-  return <CustomFeedbackForm></CustomFeedbackForm>
+  return <TrafficLight></TrafficLight>
 }
 
 export default App;
