@@ -1,7 +1,7 @@
-import { TrafficLight } from "./components/TrafficLight";
+import { TowerOfHanoi } from "./components/TowerOfHanoi";
 
 const App = () => {
-  return <TrafficLight></TrafficLight>
+  return <TowerOfHanoi></TowerOfHanoi>
 }
 
 export default App;
