@@ -1,7 +1,7 @@
-import { TowerOfHanoi } from "./components/TowerOfHanoi";
+import { FileTree } from "./components/FileTree";
 
 const App = () => {
-  return <TowerOfHanoi></TowerOfHanoi>
+  return <FileTree></FileTree>
 }
 
 export default App;

@@ -162,9 +162,44 @@ Tower of Hanoi
   border-radius: 10px;
 }
 
-
 .has-won {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+/**
+Folder Structure
+**/
+
+.file-tree {
+  width: 50vw;
+}
+
+.folder {
+  cursor: pointer;
+  border-radius: 10px;
+  padding-left: 50px;
+}
+
+.files {
+  padding-left: 50px;
+
+}
+
+.folder-header {
+  display: flex;
+  justify-content: space-between;
+  margin:auto;
+
+}
+
+.add-button {
+  font-size: small;
+}
+
+.buttons-container {
+  margin: auto 0;
+  gap: 5px;
+  display: flex;
 }
