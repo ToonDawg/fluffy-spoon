@@ -1,7 +1,7 @@
-import { FileTree } from "./components/FileTree";
+import { DataFetching } from "./components/DataFetching";
 
 const App = () => {
-  return <FileTree></FileTree>
+  return <DataFetching></DataFetching>
 }
 
 export default App;

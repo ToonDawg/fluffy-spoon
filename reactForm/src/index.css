@@ -203,3 +203,23 @@ Folder Structure
   gap: 5px;
   display: flex;
 }
+
+/**
+Data Fetching
+**/
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.all-posts{
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+.post{
+  text-align: center;
+}
