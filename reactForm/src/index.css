@@ -212,6 +212,9 @@ Data Fetching
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: #1a1a1a 1px solid;
+  padding: 50px;
+  border-radius: 8px;
 }
 .all-posts{
   max-width: 80%;
@@ -222,4 +225,21 @@ Data Fetching
 }
 .post{
   text-align: center;
+}
+
+/**
+B2C Login
+**/
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-input {
+  display: flex;
+  gap: 10px;
+  width: 20em;
+  justify-content: space-between;
 }

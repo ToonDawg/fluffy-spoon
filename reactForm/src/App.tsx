@@ -1,7 +1,7 @@
-import { DataFetching } from "./components/DataFetching";
+import { B2CLogin } from "./components/B2CLogin";
 
 const App = () => {
-  return <DataFetching></DataFetching>
-}
+  return <B2CLogin></B2CLogin>;
+};
 
 export default App;
